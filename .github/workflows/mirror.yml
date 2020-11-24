@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - prod
+      - staging
 
 jobs:
   mirror_job:
