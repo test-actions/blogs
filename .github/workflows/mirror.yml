@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - 'staging'
+      - staging
 
 jobs:
   mirror_job:
@@ -13,5 +13,5 @@ jobs:
       uses: google/mirror-branch-action@v1.0
       with:
         github-token: ${{ secrets.ACTION_TOKEN }}
-        source: 'staging'
-        dest: 'draft'
+        source: staging
+        dest: draft
