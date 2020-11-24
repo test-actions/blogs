@@ -6,7 +6,7 @@ on:
 jobs:
   mirror_job:
     runs-on: ubuntu-latest
-    name: Mirror SOURCE_BRANCH_NAME branch to DESTINATION_BRANCH_NAME branch
+    name: Adding changes added directly to staging to draft to keep in sync.
     steps:
     - name: Mirror action step
       id: mirror
